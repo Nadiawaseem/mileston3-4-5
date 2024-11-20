@@ -1,0 +1,88 @@
+ /* styling from and resume section */
+
+ body{
+    font-family: 'times  New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: aquamarine;
+ }
+
+ form{
+    margin: auto;
+    background-color: blanchedalmond;
+    border-radius: 20;
+    box-shadow: 0 4px 8px rgba rgb (58, 59, 58), blue, alpha) (0,0,0.5);
+    padding: 20px;
+    max-width: 600px;
+ }
+
+ h1{
+    text-align: center;
+    color: black;
+ }
+
+ fieldset{
+    border: 2px solid skyblue;
+    border-radius: 9px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+ }
+
+ legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgb(66, 61, 61);
+ }
+
+ label{
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+ }
+
+ input, textarea{
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid skyblue;
+    border-radius: 6px;
+    box-sizing: border-box;
+ }
+
+ button{
+    display: block;
+    width: 100%;
+    background-color: rgb(128, 124, 124);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20;
+    cursor: pointer;
+
+ }
+
+ button :hover {
+    color: blue;
+ }
+
+ # resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    background-color:burlywood ;
+    box-shadow: 0 5px 10px rgba(rgb(150, 145, 145), green, blue, alpha);
+    /*Making the resume editable*/
+    outline: none;
+ }
+
+ # resume-display h2 {
+    color: black;
+
+ }
